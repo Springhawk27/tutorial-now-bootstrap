@@ -5,3 +5,32 @@
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
 }
+
+
+.facebook {
+    font-size: 24px;
+    color: #0371E5;
+    background-color: #021A3B;
+
+}
+
+.twitter {
+    font-size: 24px;
+    color: #0F9AFB;
+    background-color: #021A3B;
+
+}
+
+.linkedin {
+    font-size: 24px;
+    color: #E9E9EA;
+    background-color: #021A3B;
+
+}
+
+.github {
+    font-size: 24px;
+    color: white;
+    background-color: #021A3B;
+
+}
