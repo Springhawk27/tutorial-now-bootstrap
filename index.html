@@ -15,8 +15,262 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="font-monospace">
-    <h1 class="text-bg-danger text-warning">Hi there I always do this</h1>
+<body>
+    <!-- bg-secondary  bg-opacity-10  -->
+    <!-- <h1 class="text-bg-danger text-warning">Hi there I always do this</h1> -->
+
+    <header id="home" class="mb-5">
+        <!-- navbar section  -->
+        <section class="container mb-4">
+            <nav class="navbar navbar-expand-lg bg-light  py-3 rounded-1">
+                <div class="container">
+                    <a class="navbar-brand fw-semibold text-danger" href="#">Tutorial Now</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#courses">Courses</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-outline-danger " type="submit">Register</button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- carousel section  -->
+
+        <section class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded-1">
+                    <div class="carousel-item active  " data-bs-interval="5000">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-flex d-md-flex  h-100 w-100 d-lg-flex flex-column align-items-center justify-content-center text-white 
+                        pt-0 pb-0 bg-dark bg-opacity-50 carousel-caption-custom">
+                            <div class="w-75">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of
+                                    a page when looking at its layout.</p>
+                                <button class="btn btn-danger py-2">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  " data-bs-interval="5000">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-flex d-md-flex  h-100 w-100 d-lg-flex flex-column align-items-center justify-content-center text-white 
+                        pt-0 pb-0 bg-dark bg-opacity-50 carousel-caption-custom">
+                            <div class="w-75">
+                                <h1>Second slide label</h1>
+                                <p>Some representative placeholder content for the first slide.</p>
+                                <button class="btn btn-danger py-2">Get Started</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item " data-bs-interval="5000">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-flex d-md-flex  h-100 w-100 d-lg-flex flex-column align-items-center justify-content-center text-white 
+                        pt-0 pb-0 bg-dark bg-opacity-50 carousel-caption-custom">
+                            <div class="w-75">
+                                <h1>Third slide label</h1>
+                                <p>Some representative placeholder content for the first slide.</p>
+                                <button class="btn btn-danger py-2">Get Started</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- header section ends here  -->
+
+    <!-- main section starts here  -->
+    <main>
+        <!-- courses section  -->
+        <section id="courses" class="container">
+            <div class="w-100 d-flex  align-items-center justify-content-center text-center mb-3">
+                <div class="w-75 d-flex flex-column align-items-center justify-content-center">
+                    <h2>Discover Our Popular Courses</h2>
+                    <p class="text-black-50">It is a long established fact that a reader will be distracted
+                        by
+                        the readable
+                        content of a page>
+                </div>
+            </div>
+            <div class="">
+                <div class="row row-cols-1 row-cols-lg-2 row-cols-md-1 ">
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Javascript Basic to advanced</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fullstack Web Development</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Digital Marketing</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Photography Basic Rules</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-12 ">
+                                    <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8 col-12 d-flex align-items-center">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Motion Graphics</h5>
+                                        <p class="card-text text-black-50">This is a wider card with supporting text
+                                            below as a
+
+                                        </p>
+                                        <p class="card-text"><small class="text-danger">Price: 20$</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ready to join section  -->
+        <section class="container my-5">
+            <div
+                class="row d-flex justify-content-center align-items-center p-5 bg-danger bg-gradient bg-opacity-10 rounded-1 mx-0">
+                <div class="col-md-8 col-12">
+                    <h2>Ready to Join</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum commodi voluptates repudiandae
+                        illo
+                        quam placeat sapiente debitis deserunt labore? Placeat!</p>
+                </div>
+                <div class="col-md-4 col-12 text-md-end ">
+                    <button class="btn btn-danger py-2">Register Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 
