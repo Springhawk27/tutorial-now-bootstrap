@@ -24,7 +24,7 @@
         <section class="container mb-4">
             <nav class="navbar navbar-expand-lg bg-light  py-3 rounded-1">
                 <div class="container">
-                    <a class="navbar-brand fw-semibold text-danger" href="#">Tutorial Now</a>
+                    <a class="navbar-brand fw-semibold text-danger fs-3" href="#">Tutorial Now</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -254,8 +254,13 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center my-2">
+                <a href="https://www.coursera.org/" class="btn btn-danger py-2" target="_blank">See More Courses</a>
+            </div>
         </section>
-        <!-- ready to join section  -->
+        <!-- courses section ends here  -->
+
+        <!-- ready to join section starts here  -->
         <section class="container my-5">
             <div
                 class="row d-flex justify-content-center align-items-center p-5 bg-danger bg-gradient bg-opacity-10 rounded-1 mx-0">
@@ -266,11 +271,65 @@
                         quam placeat sapiente debitis deserunt labore? Placeat!</p>
                 </div>
                 <div class="col-md-4 col-12 text-md-end ">
-                    <button class="btn btn-danger py-2">Register Now</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Join Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Want to Join Us</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-center">If you have some skills then don't hesitate, just click on
+                                        join now and start
+                                        teching
+                                        today</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No
+                                        Thanks</button>
+                                    <button type="button" class="btn btn-primary"><a
+                                            class="text-white text-decoration-none" target="_blank"
+                                            href="https://www.coursera.org/">
+                                            Join Now</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <!-- main section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="container-fluid m-0 p-0 bg-dark text-white">
+            <div class="d-flex flex-column  justify-content-center align-items-center p-5">
+                <h2 class="text-danger fs-3 ">Tutorial Now</h2>
+                <p class="text-white-50">Office 41, Zawaya Buildin, Ghala Muscat, </p>
+                <p class="text-white-50">Sultanate of Oman</p>
+                <div class="d-flex justify-content-center align-items-center">
+
+                    <a class="text-decoration-none text-white-50 me-2" href="http://" target="_blank"
+                        rel="noopener noreferrer">Privacy
+                        Ploicy</a>
+                    <span class="text-white-50">|</span>
+                    <a class="text-decoration-none text-white-50 ms-2" href="http://" target="_blank"
+                        rel="noopener noreferrer">Terms of
+                        use</a>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
 
