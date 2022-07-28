@@ -10,31 +10,61 @@
     width: 120px;
 }
 
-
+/* footer - social icons  */
 .facebook {
     font-size: 24px;
     color: #0371E5;
     background-color: #021A3B;
-
 }
 
 .twitter {
     font-size: 24px;
     color: #0F9AFB;
     background-color: #021A3B;
-
 }
 
 .linkedin {
     font-size: 24px;
     color: #E9E9EA;
     background-color: #021A3B;
-
 }
 
 .github {
     font-size: 24px;
     color: white;
     background-color: #021A3B;
+}
 
+/* media queries  */
+@media only screen and (max-width: 668px) {
+
+    .custom-heading {
+        font-size: 22px;
+    }
+
+    .custom-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .custom-heading {
+        font-size: 18px;
+    }
+
+    .custom-text {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .custom-heading {
+        font-size: 14px;
+    }
+
+    .custom-text {
+        font-size: 6.5px;
+    }
 }
